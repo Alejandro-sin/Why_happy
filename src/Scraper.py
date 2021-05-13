@@ -3,19 +3,20 @@ This scraper its for gather news form diferents sources across Newss Papers.
 
 
 '''
-
-
-
-import request as rq
+import pandas as pd  
+import requests as rq
 from bs4 import BeautifulSoup
 
 
-url = "https://en.wikipedia.org/wiki/List_of_newspapers_in_Colombia"
+def read_file():
+    df = pd.read_csv('', names=['Name', 'City','URL'])
+    return df
 
 
 
 def make_soup(url):
-    response = rq.get(url).text
+    response = rq.get(url)
+    response.s
     soup = BeautifulSoup(response, "html.parser")
     return soup
 
@@ -23,7 +24,10 @@ def make_soup(url):
 
 
 def main():
-    general_list = make_soup(url)
+    df = read_file()
+    for newspaper in df:
+        print(df['URL'])
+    
 
 
 
