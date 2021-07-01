@@ -8,10 +8,10 @@ class LaOrejarojaSpider(scrapy.Spider):
     start_urls = ['http://www.laorejaroja.com//']
 
     def parse(self, response):
-        for news in response.xpath('//div[@class="block"]'):
-            yield {"title": news.xpath('//div[@class="title"]/h3/text()').getall(),
+        for news in response.xpath('//div[@class="main-content"]'):
+            yield {"title": news.xpath('//div[@class="title"]/h3/text()').get(),
                 #"content": w3lib.html.remove_tags(response.xpath('//div[@class="excerpt"]/p/text()').getall())
-                "content": news.xpath('//div[@class="excerpt"]/p/text()').getall(),
+                "content": news.xpath('//div[@class="excerpt"]/p/text()').get(),
                 #"url": news.xpath('//a').getall(),
             }
             
