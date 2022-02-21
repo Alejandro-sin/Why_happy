@@ -10,12 +10,16 @@ Qué puedo hacer con NLP?
   - Los noticieros pueden ser internacionales, nacionales.
   - Pero en un periodo de tiempo de 4 años.
   - Por fecha tendría las noticias que se divulgaron ese día.
+  - Si logro hacer una etiqueta de algún tipo aquí, podría hacer un SNA.
 
 ## Percepción desde las voces en Twitter.
 
 - Extraer un dataset histórico de twitter en COlombia en el mismo periodo.
   - Con este dataset podré realizar un SNA y un mapa.
-- 
+  - Extraida la data de estos grupos. Hacer análisis de sentimientos.
+
+
+
 
 
 
