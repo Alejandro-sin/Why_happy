@@ -1,4 +1,41 @@
 
+# Data sets
+
+
+## Percepción desde las noticias
+
+Qué puedo hacer con NLP?
+
+- Puedo extraer data de los noticieros para recolectar fechas, titulares, cuerpo de las noticias.
+  - Los noticieros pueden ser internacionales, nacionales.
+  - Pero en un periodo de tiempo de 4 años.
+  - Por fecha tendría las noticias que se divulgaron ese día.
+
+## Percepción desde las voces en Twitter.
+
+- Extraer un dataset histórico de twitter en COlombia en el mismo periodo.
+  - Con este dataset podré realizar un SNA y un mapa.
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Referentes por ver
 
 https://www.youtube.com/watch?v=d7Jye1UypAw
@@ -78,6 +115,16 @@ Análisis de sentimientos de twtitts colombia.
 - Arte.
 - ¿identficiación de patrones de violencia?
 
+
+
+
+# Deduda técncia
+
+
+- Aprender a manipular de peis a cabeza la API de Twttter v2. para poenr traer data por país.
+
+https://www.youtube.com/watch?v=xmd-xdlXHoI
+https://www.youtube.com/watch?v=s73s9JbZgiY
 
 
 
